@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HELLO WORD</title>
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <style>
+        header {
+            color: white;
+            font-size: 20px;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            background-color: #2f0086;
+            color: #fff;
+            padding: 15px;
+            text-align: center;
+        }
+        
+        nav {
+            background-color: #f2f2f2;
+            padding: 10px;
+        }
+        
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        
+        nav ul li {
+            display: inline-block;
+            margin-right: 10px;
+        }
+        
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            padding: 5px;
+        }
+        
+        section {
+            padding: 20px;
+        }
+        
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        
+        section {
+            text-align: center;
+        }
+        
+        button {
+            color: #ffffff;
+            background-color: #5b4fff;
+            border: none;
+            padding: 10px 24px;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            border-radius: 4px;
+        }
+        
+        h2 {
+            border: none;
+            text-decoration: none;
+            display: inline-block;
+        }
+        
+        img {
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center center;
+            border: none;
+            width: auto;
+            height: auto;
+            margin: 0 auto;
+            display: block;
+            position: relative;
+            max-width: 100%;
+        }
+        /* // X-Small devices (portrait phones, less than 576px)*/
+    @media (max-width: 575.98px) {  }
+    header{
+            background-position: right center;
+        }
+    /* // Small devices (landscape phones, less than 768px)*/
+    @media (max-width: 767.98px) {  }
+    header{
+            background-position: right center;
+        }
+    /* // Medium devices (tablets, less than 992px)*/
+    @media (max-width: 991.98px) { }
+        header{
+            background-position: right center;
+        }
+       
+        
+        
+        div {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>
+            <i>PayPal</i>
+        </h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">الصفحة الرئيسية</a></li>
+            <li><a href="#">من نحن</a></li>
+            <li><a href="#">خدماتنا</a></li>
+            <li><a href="#">اتصل بنا</a></li>
+        </ul>
+    </nav>
+    <section>
+        <h1>
+            <button type="button" onclick="alert('سجل الاشتراك مجانا!')">سجل الاشتراك مجانا!</button>
+        </h1>
+        
+            <img src="https://cdn.shopify.com/app-store/listing_images/aaff53edf30de15fedc080a688c3d891/desktop_screenshot/CNilptyW7v0CEAE=.png?height=900&width=1600" alt=""><br>
+            <div>
+                <p><h1>السرعة والسهولة</h1></p>
+                <p>يعتمد الملايين من العملاء حول العالم على خدمتنا لسبب واحد بسيط: سهولة الاستخدام. لا تحتاج أكثر من عنوان بريد إلكتروني وكلمة مرور لسداد مدفوعاتك في إيماءة أسرع من إخراج محفظتك من جيبك.
+                </p> 
+                <div>
+       
+            
+        <h1>
+            <button type="button" onclick="alert('سجل الاشتراك مجانا!')">سجل الاشتراك مجانا!</button>
+        </h1>
+    </section>
+</body>
+</html>
